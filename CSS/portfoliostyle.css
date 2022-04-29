@@ -40,7 +40,7 @@ body{
 
 /*hero image section*/
 .heroContent {
-    background-image:url("/Images/Unsplash\ ferns.png");
+    background-image:url("../Images/Unsplash\ ferns.png");
     top:0;
     left:0;
     width:100%;
