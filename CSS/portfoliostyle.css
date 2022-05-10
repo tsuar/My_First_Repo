@@ -1,6 +1,7 @@
 body{
     margin:0px;
     padding:0px;
+    background-color: #838170;
     }
 
 /*background for the topnav*/
@@ -79,6 +80,49 @@ body{
     margin-left: 30%;
     margin-right:30%;
 }
+
+/*case study section*/
+.card-container{
+    display:flex;
+    flex-direction: row;
+    margin:0px 100px 50px 100px;
+    background-color: #FBF9F9;
+    font-family: sans-serif;
+    box-sizing: border-box;   
+}
+.resize{
+    width:800px;
+    height:auto;
+}
+
+.mamInfo{
+    padding:50px 50px 50px 50px;
+    width:45%;
+    font-weight: 400;
+}
+.exoInfo{
+    padding:50px 50px 50px 50px;
+    width:45%;
+    font-weight: 400; 
+}
+.usdoeInfo{
+    padding:50px 50px 50px 50px;
+    width:45%;
+    font-weight: 400; 
+}
+
+.button{
+    border:none;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size:16px;
+    margin: 10px 10px;
+    cursor:pointer;
+    background-color: #DAC4A3;
+}
+
+
 /*footer section*/
 .footer{
     display: flex;
@@ -106,3 +150,9 @@ body{
     font-size: 20px;
 
 }
+
+/* For desktop: */
+@media only screen and (min-width: 700px) and (max-width:1200px){
+  
+}
+    
